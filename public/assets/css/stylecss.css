@@ -1,0 +1,726 @@
+#container {
+    height: 500px;
+    min-width: 310px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.loading {
+    margin-top: 10em;
+    text-align: center;
+    color: gray;
+}
+
+#chart-flow {
+    border: 1px solid #eeeeee;
+    margin-top: 1%;
+    box-shadow: 1px 2px 3px 4px #eeeeee;
+    margin-left: 1%;
+    background: white;
+}
+
+#chart-list {
+    background: #fbfbfb;
+    gap: 10px;
+}
+
+#chart-list-2 {
+    width: 54%;
+    border: 1px solid #eeeeee;
+    box-shadow: 1px 2px 3px 4px #eeeeee;
+    background: #fbfbfb;
+}
+
+#chart-flow h5 {
+    margin-top: 36px;
+    font-weight: 400;
+    text-align: center;
+}
+
+#chart-list-2 h5 {
+    margin-top: 36px;
+    font-weight: bold;
+}
+
+.hero_sec {
+    /* background: #c5c5c5; */
+    padding-left: 13px;
+    padding-right: 13px;
+    padding-top: 10px;
+}
+
+.card {
+    box-shadow: 1px 2px 3px 4px #eeeeee;
+}
+
+#button-effect:hover {
+    color: black;
+    background: lightblue;
+}
+
+
+/* ------------------------------------------------ */
+#body-tag {
+    font-family: "Lato", sans-serif;
+    background-color: #81d3ef26;
+}
+
+.sidenav {
+    height: 100%;
+    width: 30%;
+    position: fixed;
+    z-index: 1;
+    top: 0px;
+    left: 0;
+    background-color: #fff;
+    overflow-x: scroll;
+    padding-top: 20px;
+}
+
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+}
+
+.sidenav {
+    color: rgb(44, 51, 240);
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.main-div-pending {
+    margin-left: 31%;
+    /* Same as the width of the sidenav */
+    font-size: 28px;
+    /* Increased text to enable scrolling */
+    padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+
+    .sidenav a {
+        font-size: 18px;
+    }
+}
+
+.patient {
+    margin-left: 10px;
+}
+
+.patient button {
+    border: none;
+    background: none;
+    color: blue;
+}
+
+.search-box {
+    border: 2px solid #dad6d6;
+    width: 120%;
+    padding-left: 30px;
+}
+
+.search-flex {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+    text-align: center;
+}
+
+.nav-data-name {
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    gap: 130px;
+    text-align: center;
+}
+
+.side-icon-name {
+    color: rgb(85, 85, 85);
+    font-size: 14px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    text-align: center;
+}
+
+#sidebar-item a {
+    margin-left: -22px;
+}
+
+.name-icon {
+    color: #4d4c4c;
+    border: 1px solid;
+    margin: 10px;
+    width: 30px;
+    height: 30px;
+    /* padding-top: 10px; */
+    border-radius: 50px;
+    background-color: rgba(46, 15, 15, 0.896);
+}
+
+.name-icon i {
+    vertical-align: bottom;
+}
+
+.main-btn {
+    display: flex;
+    gap: 10px;
+    margin-left: 20px;
+}
+
+.btn.btn-primary {
+    width: 25rem;
+    margin-top: 10px;
+    border-radius: 30px;
+}
+
+.pending-patients {
+    margin-top: 10px;
+    background-color: white;
+    border-radius: 10px;
+    width: 32%;
+    padding-left: 10px;
+    font-size: 18px;
+    height: 91vh;
+    overflow-x: scroll;
+    position: fixed;
+    z-index: 1;
+
+}
+
+.patients-record {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    font-weight: 600;
+}
+
+.panding-data {
+    display: flex;
+    gap: 130px;
+}
+
+.pending-btn {
+    width: 96%;
+    border-radius: 20px;
+    text-align: left;
+    border: 1px solid lightblue;
+    background-color: #fff;
+    font-size: 16px;
+}
+
+.abc {
+    display: flex;
+}
+
+.pending-container .pending-btn i {
+    color: #1b1c1d;
+    text-align: end;
+    width: fit-content;
+    margin-left: 70%;
+}
+
+.padding-btn-form {
+    padding-bottom: 15px;
+    padding-top: 10px;
+}
+
+.visit-appointment {
+    display: flex;
+    gap: 3%;
+}
+
+.sidebar-icon {
+    display: flex;
+    justify-content: space-between;
+    gap: 105%;
+}
+
+/* ----------------MODAL FORM CSS-------------------> */
+
+.name-container {
+    display: flex;
+    gap: 151px;
+    width: fit-content;
+    padding-bottom: 45px;
+}
+
+.fname-element input {
+    border: none;
+    border-bottom: 1px solid;
+    width: 205%;
+    padding: 6px 0px;
+}
+
+#fname {
+    width: 123%;
+    margin-top: 15px;
+    height: 30px;
+    border: none;
+    border-bottom: 1px solid;
+}
+
+.age-element input {
+    /* border: none; */
+    width: 246%;
+    border: none;
+    border-bottom: 1px solid;
+    margin-top: 15px;
+    margin-left: -36px;
+    height: 30px;
+}
+
+.age-element label {
+    margin-left: -35px;
+}
+
+.email-element label {
+    margin-left: -24px;
+}
+
+.civil-element label {
+    margin-left: -15px;
+}
+
+.city-element {
+    margin-left: 72px;
+}
+
+.certifications-element {
+    margin-left: 57px;
+}
+
+.gender-container {
+    display: flex;
+    gap: 218px;
+    width: fit-content;
+    padding-bottom: 45px;
+}
+
+.gender-element select {
+    width: 185%;
+    padding: 6px 0px;
+    margin-top: 10px;
+    border: none;
+    border-bottom: 1px solid;
+}
+
+.department-element select {
+    width: 133%;
+    padding: 6px 0px;
+    margin-top: 10px;
+    border: none;
+    border-bottom: 1px solid;
+    height: 30px;
+}
+
+.city-element select {
+    width: 220%;
+    height: 30px;
+    padding: 6px 0px;
+    margin-top: 10px;
+    border: none;
+    border-bottom: 1px solid;
+    height: 30px;
+}
+
+.civil-element select {
+    width: 243%;
+    height: 30px;
+    padding: 6px 0px;
+    margin-top: 10px;
+    margin-left: -12px;
+    border: none;
+    border-bottom: 1px solid;
+}
+
+.birth-element input {
+    width: 123%;
+    border: none;
+    border-bottom: 1px solid;
+    padding: 6px 0px;
+    margin-top: 10px;
+    height: 32px;
+}
+
+.phone_email_container {
+    display: flex;
+    gap: 123px;
+    width: fit-content;
+}
+
+.phnumber-element input {
+    width: 117%;
+    border: none;
+    border-bottom: 1px solid;
+    padding: 6px 0px;
+    margin-top: 10px;
+    height: 30px;
+}
+
+.email-element input {
+    margin-top: 10px;
+    width: 146%;
+    height: 30px;
+    margin-left: -22px;
+    border: none;
+    border-bottom: 1px solid;
+    padding: 6px 0px;
+}
+
+.address_container_1 {
+    display: flex;
+    gap: 115px;
+    width: fit-content;
+    padding-bottom: 40px;
+}
+
+.address-element-1 input {
+    width: 118%;
+    padding: 6px 0px;
+    border: none;
+    border-bottom: 1px solid;
+    height: 30px;
+    margin-top: 10px;
+}
+
+.address-element-2 input {
+    width: 131%;
+    border: none;
+    border-bottom: 1px solid;
+    border-bottom: 1px solid black;
+    padding: 6px 0px;
+}
+
+.address_container_2 {
+    display: flex;
+    gap: 66px;
+    width: fit-content;
+    padding-bottom: 22px;
+}
+
+.town-element input {
+    width: 106%;
+    border: none;
+    border-bottom: 1px solid black;
+    padding: 6px 0px;
+}
+
+.city-element input {
+    width: 182%;
+    border: none;
+    border-bottom: 1px solid;
+    padding: 6px 0px;
+    height: 30px;
+}
+
+.attached {
+    display: flex;
+    gap: 44px;
+    width: fit-content;
+    padding-bottom: 20px;
+}
+
+.attached-element input {
+    width: 118%;
+    height: 30px;
+    border: none;
+    border-bottom: 1px solid;
+    padding: 0px;
+}
+
+.certifications-element input {
+    width: 99%;
+    height: 30px;
+    border: none;
+    border-bottom: 1px solid;
+    padding: 0px;
+}
+
+.close_btn button {
+    float: right;
+    padding: 10px 40px;
+    border-radius: 25px;
+    border: 1px solid black;
+}
+
+.modal-dialog .modal-xl {
+    margin-left: 10px;
+}
+
+#modal-element {
+    width: 76%;
+    margin-left: 12%;
+}
+
+#second-icon {
+    margin-left: 78%;
+}
+
+#three-icon {
+    margin-left: 81%;
+}
+
+#four-icon {
+    margin-left: 77%;
+}
+
+#five-icon {
+    margin-left: 74%;
+}
+
+#six-icon {
+    margin-left: 76%;
+}
+
+#seven-icon {
+    margin-left: 74%;
+}
+
+#eight-icon {
+    margin-left: 78%;
+}
+
+#nine-icon {
+    margin-left: 79%;
+}
+
+#ten-icon {
+    margin-left: 74%;
+}
+
+#eleven-icon {
+    margin-left: 84%;
+}
+
+/* ------------------------patientData------------------------------ */
+.patientData {
+    display: flex;
+    gap: 45%;
+    padding-bottom: 20px;
+    margin-top: 20px;
+}
+
+.patient-icon {
+    border: 1px solid;
+    margin: 20px;
+    width: 50px;
+    height: 50px;
+    /* padding-top: 10px; */
+    border-radius: 50px;
+    background-color: rgba(5, 63, 24, 0.896);
+}
+
+.patient-icon i {
+    margin-left: 15px;
+    margin-top: 22px;
+}
+
+.icon-patient-name {
+    display: flex;
+    gap: 30px;
+}
+
+.new-visit-btn {
+    background-color: rgba(5, 63, 24, 0.896);
+    color: white;
+    border: none;
+    width: 160%;
+    height: 20%;
+    text-decoration: none;
+}
+
+#new-visit {
+    margin-top: 55px;
+}
+
+.MainPage-patient {
+    padding-left: 31%;
+}
+
+.patient-visit {
+    /* background-color: white; */
+    display: flex;
+    align-content: center;
+    gap: 65%;
+    /* overflow-y: scroll; */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.visit-form {
+    padding-top: 10px;
+    background: white;
+    border-radius: 20px;
+    height: 79vh;
+}
+
+.innerpage-consultation .inner-heading {
+    border: 2px solid rgb(155, 154, 154);
+    padding-left: 20px;
+    border-radius: 10px;
+}
+
+.innerpage-consultation {
+    padding: 20px;
+}
+
+.day-name {
+    padding-left: 20px;
+}
+
+.Btn-visit-form {
+    width: 105%;
+    border: none;
+    border-radius: 10px;
+    background-color: rgba(5, 63, 24, 0.896);
+}
+
+/* -------------------------------------NEW VISIT PAGE CSS---------------------------------------------------- */
+#new-visit-body {
+    font-family: "Lato", sans-serif;
+    background-color: #81d3ef26;
+}
+
+#new-visit-form {
+    padding-left: 31%;
+    margin: 10px;
+    width: 98%;
+    background-color: white;
+}
+
+#New-Visit {
+    padding-left: 31%;
+    margin-top: 10px;
+    background-color: white;
+    margin: 10px;
+}
+
+.new_visit_container label {
+    padding-bottom: 15px;
+}
+
+.new_visit_container select {
+    width: 203%;
+    padding: 6px 0px;
+}
+
+#visit_templet {
+    padding-bottom: 19px;
+}
+
+.patient_name input {
+    width: 203%;
+    padding: 5px 0px;
+}
+
+.patient_name label {
+    padding-bottom: 15px;
+}
+
+.comment-container textarea {
+    width: 203%;
+    padding: 5px;
+}
+
+.comment-container label {
+    padding-bottom: 15px;
+}
+
+.vital_container {
+    display: flex;
+    gap: 61px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.blood_element input {
+    width: 30%;
+    padding: 5px;
+    margin-left: 12px;
+}
+
+.height_element input {
+    margin-left: 20px;
+    width: 38%;
+    padding: 5px;
+}
+
+.temperature-element input {
+    width: 30%;
+    padding: 5px;
+    margin-left: 60px;
+}
+
+.pulse-element input {
+    width: 42%;
+    padding: 5px;
+    margin-left: 10%;
+}
+
+.oxygen_element input {
+    width: 30%;
+    padding: 5px;
+    margin-left: 46px;
+}
+
+.weight-element input {
+    width: 38%;
+    padding: 5px;
+    margin-left: 41px;
+}
+
+.note_element textarea {
+    width: 150%;
+    padding: 5px 0px;
+}
+
+.note_element label {
+    padding-bottom: 20px;
+}
+
+.note_container {
+    padding-bottom: 20px;
+}
+
+.investigation_element textarea {
+    width: 150%;
+    padding: 5px 0px;
+}
+
+.investigation_element {
+    padding-bottom: 20px;
+}
+
+.investigation_element label {
+    padding-bottom: 20px;
+}
+
+.save_container {
+    display: flex;
+    gap: 90px;
+}
+
+.save_btn button {
+    background: blue;
+    border: 1px solid blue;
+    border-radius: 20px;
+    color: white;
+    padding: 10px 15px;
+}
+
+.save_btn_2 button {
+    background: green;
+    border: 1px solid green;
+    border-radius: 20px;
+    color: white;
+    padding: 10px 15px;
+}

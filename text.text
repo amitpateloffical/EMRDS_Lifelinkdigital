@@ -1,0 +1,42 @@
+VITAL
+if (heartRate < 60 || heartRate > 100) {
+"Abnormal Heart Rate";
+}
+
+if (respiratoryRate < 12 || respiratoryRate > 18) {
+"Abnormal Respiratory Rate";
+}
+
+if (systolicPressure < 96 || systolicPressure > 140) {
+"Abnoral Systolic Blood Pressure";
+}
+
+if (diastolicPressure < 60 || diastolicPressure > 90) {
+"Abnormal Diastlic Blood Pressure";
+}
+
+if (temperature < 97.34 || temperature > 98.96) {
+"Abnormal Temperatre";
+}
+
+
+BP
+if (systolic < 90 || diastolic < 60) {
+"Low Blood Pressure";
+} else if (systolic >= 90 && systolic <= 120 && diastolic >= 60 && diastolic <= 80) {
+"Normal Blood Pressure";
+} else if (systolic > 120 || diastolic > 80) {
+"High Blood Pressure";
+}
+
+BMI
+
+if (bmi < 18.5) {
+'Underweight';
+} else if (bmi >= 18.5 && bmi < 24.9) {
+'Normal weight';
+} else if (bmi >= 25 && bmi < 29.9) {
+'Overweight';
+} else {
+'Obesity';
+}
