@@ -1091,7 +1091,7 @@
 
             Swal.fire({
                 icon: '',
-                title: 'Connexo EMRDS Says',
+                title: 'Life Link Digital  EMRDS Says',
                 html: errorMessages.join(''),
 
                 showCloseButton: true, // Display a close button

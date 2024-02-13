@@ -19,25 +19,25 @@ class LoginSeeder extends Seeder
 
         DB::table('admins')->insert([
             'name' => 'Amit Guru',
-            'email' => 'amitguruhr@connexodemo.com',
+            'email' => 'amitguruhr@lifelinkdigital.com',
             'role_id' => 2,
             'password' => Hash::make('1234567890'),
         ]);
         DB::table('admins')->insert([
             'name' => 'Madhulika Mishra',
-            'email' => 'madhulikamishramo@connexodemo.com',
+            'email' => 'madhulikamishramo@lifelinkdigital.com',
             'role_id' => 3,
             'password' => Hash::make('1234567890'),
         ]);
         DB::table('admins')->insert([
             'name' => 'Amit Patel',
-            'email' => 'amitpatelns@connexodemo.com',
+            'email' => 'amitpatelns@lifelinkdigital.com',
             'role_id' => 4,
             'password' => Hash::make('1234567890'),
         ]);
         DB::table('admins')->insert([
             'name' => 'Shaleen Mishra',
-            'email' => 'shaleenmishraohc@connexodemo.com',
+            'email' => 'shaleenmishraohc@lifelinkdigital.com',
             'role_id' => 5,
             'password' => Hash::make('1234567890'),
         ]);

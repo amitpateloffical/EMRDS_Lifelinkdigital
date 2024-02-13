@@ -75,7 +75,7 @@ class Admin extends Authenticatable
 
         Mail::send('components.employeeNotification', ['pre' => 0007],
         function ($message)   {
-            $message ->subject('Request for Pre- Employment Medical Check Up ')->to('anjali.desai@connexodemo.com');
+            $message ->subject('Request for Pre- Employment Medical Check Up ')->to('anjali.desai@lifelinkdigital.com');
 
         });
     }

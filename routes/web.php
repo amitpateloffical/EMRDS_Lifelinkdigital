@@ -20,7 +20,7 @@ use Illuminate\Support\Facades\Mail;
 // Route::get('/send', function () {
 //     Mail::send('components.employeeNotification', ['pre' => 0007],
 //     function ($message)   {
-//         $message ->subject('Request for Pre- Employment Medical Check Up ')->to('anjali.desai@connexodemo.com');
+//         $message ->subject('Request for Pre- Employment Medical Check Up ')->to('anjali.desai@lifelinkdigital.com');
 //     });
 //     return 'sent mlai';
 // });

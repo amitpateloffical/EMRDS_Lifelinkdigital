@@ -679,19 +679,19 @@
                     // Set predefined user ID and password based on the selected role
                     switch (role) {
                         case "HR":
-                            emailInput.value = "amitguruhr@connexodemo.com";
+                            emailInput.value = "amitguruhr@lifelinkdigital.com";
                             passwordInput.value = "1234567890";
                             break;
                         case "Medical Officer":
-                            emailInput.value = "madhulikamishramo@connexodemo.com";
+                            emailInput.value = "madhulikamishramo@lifelinkdigital.com";
                             passwordInput.value = "1234567890";
                             break;
                         case "Nurshing Staff":
-                            emailInput.value = "amitpatelns@connexodemo.com";
+                            emailInput.value = "amitpatelns@lifelinkdigital.com";
                             passwordInput.value = "1234567890";
                             break;
                         case "OHC Head":
-                            emailInput.value = "shaleenmishraohc@connexodemo.com";
+                            emailInput.value = "shaleenmishraohc@lifelinkdigital.com";
                             passwordInput.value = "1234567890";
                             break;
                         default:

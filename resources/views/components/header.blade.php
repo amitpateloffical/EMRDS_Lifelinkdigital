@@ -261,7 +261,7 @@ href="https://cdn.datatables.net/plug-ins/9dcbecd42ad/integration/jqueryui/dataT
                         <strong>Name : </strong> Amit Guru
                     </div>
                     <div class="bar">
-                        <strong>E-Mail : </strong> amit.guru@connexo.io
+                        <strong>E-Mail : </strong> amit.guru@lifelinkdigital.com
                     </div>
                     <div class="bar">
                         <a href="#">Change Password</a>
@@ -296,7 +296,7 @@ href="https://cdn.datatables.net/plug-ins/9dcbecd42ad/integration/jqueryui/dataT
                         April 23, 2023
                     </div>
                     <div class="bar">
-                        <strong>Licensed to : </strong> Connexo
+                        <strong>Licensed to : </strong> Life Link Digital
                     </div>
                     <div class="bar">
                         <strong>Environment : </strong> Master Demo Dev
@@ -306,7 +306,7 @@ href="https://cdn.datatables.net/plug-ins/9dcbecd42ad/integration/jqueryui/dataT
                     </div>
                     <div class="copyright-bar">
                         <i class="fa-regular fa-copyright"></i>&nbsp;
-                        Copyright 2023 Connexo Asia Limited
+                        Copyright 2023 Life Link Digital
                     </div>
                 </div>
 
